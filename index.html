@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>네이키-반응형 홈페이지</title>
+    <!-- 파비콘 -->
+    <link href="img/faviconpng.png" type="image/icon"  rel="shortcut icon">
+    <!-- swiper css cdn -->
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- awesome icon cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- 외부 css연결 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- swiper js cdn -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- 외부 js 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header_wrap">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="로고">
+                    </a>
+                </div><!--로고-->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">New Releases</a>
+                            <ul class="sub">
+                                <li><a href="#">New&Featured</a></li>
+                                <li><a href="#">New For Men</a></li>
+                                <li><a href="#">New For Women</a></li>
+                                <li><a href="#">New For Kids</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Men</a>
+                            <ul class="sub">
+                                <li><a href="#">New&Featured</a></li>
+                                <li><a href="#">신발</a></li>
+                                <li><a href="#">의류</a></li>
+                                <li><a href="#">스포츠</a></li>
+                                <li><a href="#">브랜드</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Women</a>
+                            <ul class="sub">
+                                <li><a href="#">New&Featured</a></li>
+                                <li><a href="#">신발</a></li>
+                                <li><a href="#">의류</a></li>
+                                <li><a href="#">스포츠</a></li>
+                                <li><a href="#">브랜드</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Kid</a>
+                            <ul class="sub">
+                                <li><a href="#">New&Featured</a></li>
+                                <li><a href="#">신발</a></li>
+                                <li><a href="#">의류</a></li>
+                                <li><a href="#">스포츠</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Sale</a>
+                            <ul class="sub">
+                                <li><a href="#">New&Featured</a></li>
+                                <li><a href="#">Mens Sale</a></li>
+                                <li><a href="#">Women Sale</a></li>
+                                <li><a href="#">Kids Sale</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav><!--pc번전내비게이션-->
+                <!-- 테블릿,모바일 버전 내베게이션 -->
+                <div id="navi">
+                    <!-- 활살표를 클릭하면 navi가 들어감 -->
+                    <div class="navi_arrow">
+                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">New Releases</a>
+                                <ul class="sub">
+                                    <li><a href="#">New&Featured</a></li>
+                                    <li><a href="#">New For Men</a></li>
+                                    <li><a href="#">New For Women</a></li>
+                                    <li><a href="#">New For Kids</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Men</a>
+                                <ul class="sub">
+                                    <li><a href="#">New&Featured</a></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">스포츠</a></li>
+                                    <li><a href="#">브랜드</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Women</a>
+                                <ul class="sub">
+                                    <li><a href="#">New&Featured</a></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">스포츠</a></li>
+                                    <li><a href="#">브랜드</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Kid</a>
+                                <ul class="sub">
+                                    <li><a href="#">New&Featured</a></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">스포츠</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Sale</a>
+                                <ul class="sub">
+                                    <li><a href="#">New&Featured</a></li>
+                                    <li><a href="#">Mens Sale</a></li>
+                                    <li><a href="#">Women Sale</a></li>
+                                    <li><a href="#">Kids Sale</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav><!--태블릿,모바일 버전내비게이션-->
+
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/ins.png" alt="인스"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/fb.png" alt="페북"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/youtube.png" alt="유튜브"></a>
+                        </li>
+                    </ul>
+                </div><!--sns-->
+                <div class="sub_bg">
+
+                </div><!--서브메뉴배경-->
+                <div class="menu_btn">
+                    <a href="#"><img src="img/hb.png" alt="햄버거메뉴"></a>
+                </div><!--메뉴버튼-->
+            </div>
+        </header>
+        <section class="s1">
+            <div class="visual">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide v1"> </div>
+                        <div class="swiper-slide v2"> </div>
+                        <div class="swiper-slide v3"> </div>
+                    </div>
+                    <!-- 슬라이드의 동그라미 버튼(pagination) -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="visual_txt">
+                    <h1>모두를 위한 최고의 선택</h1>
+                    <p>최상의 움직임,스포츠,스타일을 위해 나이키를 선물하세요</p>
+                    <a href="#">컬렉션 구매하기 <span>→</span></a>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="product_title">
+                <h1>Trending Now</h1>
+                <p>나이키를 만나보세요!</p>
+            </div>
+            <div class="product">
+                <div class="swiper  mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide p1">
+                            <a href="#">구매하기</a>
+                        </div>
+                        <div class="swiper-slide p2">
+                            <a href="#">구매하기</a>
+                        </div>
+                        <div class="swiper-slide p3">
+                            <a href="#">구매하기</a>
+                        </div>
+                        <div class="swiper-slide p4">
+                            <a href="#">구매하기</a>
+                        </div>
+                        <div class="swiper-slide p5">
+                            <a href="#">구매하기</a>
+                        </div>
+                        <div class="swiper-slide p6">
+                            <a href="#">구매하기</a>
+                        </div><!--swiper-wrapper-->
+                    </div>
+                     <!-- 왼쪽,오른쪽 화살표 -->
+                     <div class="swiper-button-next"></div>
+                     <div class="swiper-button-prev"></div>
+                      <!-- 슬라이드의 동그라미 버튼(pagination) -->
+                      <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="center">
+                <h1>Apparel Essentials</h1>
+                <p>나이키를 만나보세요.</p>
+                <div class="new">
+                    <div class="new_list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="new_img">
+                                        <div class="new_img2 n1"></div>
+                                    </div>
+                                    <div class="new_txt">
+                                        <h3>재킷&베스트</h3>
+                                        <span>2021.12.20</span>
+                                        <p>나이키를 만나보세요.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new_img">
+                                        <div class="new_img2 n2"></div>
+                                    </div>
+                                    <div class="new_txt">
+                                        <h3>후디&크루</h3>
+                                        <span>2021.11.20</span>
+                                        <p>나이키를 만나보세요.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new_img">
+                                        <div class="new_img2 n3"></div>
+                                    </div>
+                                    <div class="new_txt">
+                                        <h3>팬츠&타이츠</h3>
+                                        <span>2021.10.20</span>
+                                        <p>나이키를 만나보세요.</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="new_btn">
+                        <a href="#">Item Show</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="center">
+                <div class="online">
+                    <div class="banner_left">
+                        <h3>온라인 문의</h3>
+                        <p>궁금하신 사항을 문의하실 수 있습니다.</p>
+                    </div>
+                    <div class="banner_right">
+                        <a href="#">문의하기<span>→</span></a>
+                    </div>
+                </div><!--online-->
+                <div class="info">
+                    <div class="banner_left">
+                        <h3>담당자 정보</h3>
+                        <p>업무 담당자를 확인하실 수 있습니다.</p>
+                    </div>
+                    <div class="banner_right">
+                        <a href="#">정보학인<span>→</span></a>
+                    </div>
+                </div><!--info-->
+
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+                <div class="footer_left">
+                    <img src="img/logo_01.png" alt="logo">
+                    <address>
+                        서울특별시 강남구 테혜란로 207
+                    </address>
+                    <p>COPYRIGHT© 2021 MOORIM PAPER. ALL RIGHT RESERVED</p>
+                </div>
+                <div class="footer_right">
+                    <a href="#">나이키몰로 이동↗</a>
+                </div>
+            </div>
+        </footer>
+    </div><!--wrap-->
+    <i class="fas fa-arrow-up"></i>
+</body>
+</html>
