@@ -67,11 +67,11 @@ $(window).scroll(function(){
             clickable: true,
           },
           breakpoints:{
-            1024:{
+            1440:{
               slidesPerView:3,/*pc버전 */
               slidesPerGroup:3,
             },
-            980:{
+            1380:{
               slidesPerView:2, /*테블릿버전 */
               slidesPerGroup:2,
             },

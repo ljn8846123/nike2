@@ -535,7 +535,7 @@ header, section, footer{
 }/*모바일*/
 
 /* 태블릿 */
-@media screen and (min-width:980px){
+@media screen and (min-width:1380px){
     header{
         width:100vw;
         height:10vw;
@@ -1054,7 +1054,7 @@ header, section, footer{
 }/*테블릿*/
 
 /* pc버전 */
-@media screen and (min-width:1024px){
+@media screen and (min-width:1440px){
     header{
         width:100vw;
         height:80px; 
